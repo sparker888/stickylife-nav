@@ -437,8 +437,10 @@ export default function Secondary() {
                                  layout="fill" />
                               </div>
                               <Link href={item.href} className="mt-6 block text-sm font-medium text-gray-900">
+                                <div>
                                 <span className="absolute z-10 inset-0" aria-hidden="true" />
                                 {item.name}
+                                </div>
                               </Link>
                               <p aria-hidden="true" className="mt-1 text-sm text-gray-500">
                                 Shop now
@@ -511,8 +513,10 @@ export default function Secondary() {
                                                 />
                                               </div>
                                               <Link href={item.href} className="mt-4 block font-medium text-gray-900">
+                                                <div>
                                                 <span className="absolute z-10 inset-0" aria-hidden="true" />
                                                 {item.name}
+                                                </div>
                                               </Link>
                                               <p aria-hidden="true" className="mt-1">
                                                 Shop now

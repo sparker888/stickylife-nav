@@ -197,11 +197,13 @@ export default function Navigation7() {
                           {category.featured.map((item) => (
                             <div key={item.name} className="group relative text-sm">
                               <div className="aspect-w-1 aspect-h-1 rounded-lg bg-gray-100 overflow-hidden group-hover:opacity-75">
-                                <Image src={item.imageSrc} alt={item.imageAlt} className="object-center object-cover" />
+                                <Image src={item.imageSrc} alt={item.imageAlt} className="object-center object-cover" layout="fill" />
                               </div>
                               <Link href={item.href} className="mt-6 block font-medium text-gray-900">
+                                <>
                                 <span className="absolute z-10 inset-0" aria-hidden="true" />
                                 {item.name}
+                                </>
                               </Link>
                               <p aria-hidden="true" className="mt-1">
                                 Shop now
@@ -247,27 +249,29 @@ export default function Navigation7() {
                 <div className="border-t border-gray-200 py-6 px-4 space-y-6">
                   <div className="flow-root">
                     <Link href="#" className="-m-2 p-2 block font-medium text-gray-900">
-                      Sign in
+                      Log in
                     </Link>
                   </div>
                   <div className="flow-root">
                     <Link href="#" className="-m-2 p-2 block font-medium text-gray-900">
-                      Create account
+                      New Account
                     </Link>
                   </div>
                 </div>
 
                 <div className="border-t border-gray-200 py-6 px-4">
                   <Link href="#" className="-m-2 p-2 flex items-center">
+                    <>
                     <Image
                       src="https://tailwindui.com/img/flags/flag-united-states.svg"
                       alt=""
                       className="w-5 h-auto block flex-shrink-0"
-                      width={50}
-                      height={50}
+                      width={20}
+                      height={15}
                     />
                     <span className="ml-3 block text-base font-medium text-gray-900">USA</span>
                     <span className="sr-only">, change currency</span>
+                    </>
                   </Link>
                 </div>
               </Dialog.Panel>
@@ -295,7 +299,8 @@ export default function Navigation7() {
 
               {/* Logo (lg+) */}
               <div className="hidden lg:flex-none lg:flex lg:items-center">
-                  <Link href="/">
+                  <Link href="#">
+                  <>
                     <span className="sr-only">StickyLife</span>
                     <Image
                       className="h-12 w-auto"
@@ -304,6 +309,7 @@ export default function Navigation7() {
                       width={140}
                       height={48}
                     />
+                    </>
                   </Link>
                 </div>
 
@@ -355,8 +361,10 @@ export default function Navigation7() {
                                             />
                                           </div>
                                           <Link href={item.href} className="mt-6 block font-medium text-gray-900">
+                                            <>
                                             <span className="absolute z-10 inset-0" aria-hidden="true" />
                                             {item.name}
+                                            </>
                                           </Link>
                                           <p aria-hidden="true" className="mt-1">
                                             Shop now
@@ -378,7 +386,9 @@ export default function Navigation7() {
                                             {section.items.map((item) => (
                                               <li key={item.name} className="flex">
                                                 <Link href={item.href} className="hover:text-gray-800">
+                                                  <>
                                                   {item.name}
+                                                  </>
                                                 </Link>
                                               </li>
                                             ))}
@@ -418,18 +428,21 @@ export default function Navigation7() {
                   {/* Log In */}
                 <div className="ml-4 flow-root lg:ml-6">
                   <Link href="#" className="group -m-2 p-2 flex items-center">
+                  <>
                     <UserCircleIcon
                       className="flex-shrink-0 h-6 w-6 text-cyan-500 group-hover:text-blue-500"
                       aria-hidden="true"
                     />
                     <span className="ml-2 text-sm font-medium text-black group-hover:text-gray-800">Log In</span>
                     <span className="sr-only">Log In</span>
+                    </>
                   </Link>
                 </div>
                 </div>
 
                 <div className="hidden lg:ml-8 lg:flex">
                   <Link href="#" className="text-black hover:text-gray-800 flex items-center">
+                    <>
                     <Image
                       src="https://tailwindui.com/img/flags/flag-united-states.svg"
                       alt=""
@@ -439,6 +452,7 @@ export default function Navigation7() {
                     />
                     <span className="ml-3 block text-sm font-medium">USA</span>
                     <span className="sr-only">, change currency</span>
+                    </>
                   </Link>
                 </div>
 
@@ -461,12 +475,14 @@ export default function Navigation7() {
                 {/* Cart */}
                 <div className="ml-4 flow-root lg:ml-6">
                   <Link href="#" className="group -m-2 p-2 flex items-center">
+                  <>
                     <ShoppingCartIcon
                       className="flex-shrink-0 h-6 w-6 text-cyan-500 group-hover:text-gray-500"
                       aria-hidden="true"
                     />
                     <span className="ml-2 text-sm font-medium text-black group-hover:text-gray-800">0</span>
                     <span className="sr-only">items in cart, view bag</span>
+                    </>
                   </Link>
                 </div>
               </div>
