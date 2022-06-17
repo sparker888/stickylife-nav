@@ -5,6 +5,7 @@ import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
 import { MenuIcon, UserCircleIcon, SearchIcon, ShoppingCartIcon, XIcon } from '@heroicons/react/outline'
 import Secondary from '../components/secondary'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const navigation = {
   categories: [
@@ -198,10 +199,10 @@ export default function Navigation7() {
                               <div className="aspect-w-1 aspect-h-1 rounded-lg bg-gray-100 overflow-hidden group-hover:opacity-75">
                                 <Image src={item.imageSrc} alt={item.imageAlt} className="object-center object-cover" />
                               </div>
-                              <a href={item.href} className="mt-6 block font-medium text-gray-900">
+                              <Link href={item.href} className="mt-6 block font-medium text-gray-900">
                                 <span className="absolute z-10 inset-0" aria-hidden="true" />
                                 {item.name}
-                              </a>
+                              </Link>
                               <p aria-hidden="true" className="mt-1">
                                 Shop now
                               </p>
@@ -220,9 +221,9 @@ export default function Navigation7() {
                             >
                               {section.items.map((item) => (
                                 <li key={item.name} className="flow-root">
-                                  <a href={item.href} className="-m-2 p-2 block text-gray-500">
+                                  <Link href={item.href} className="-m-2 p-2 block text-gray-500">
                                     {item.name}
-                                  </a>
+                                  </Link>
                                 </li>
                               ))}
                             </ul>
@@ -236,28 +237,28 @@ export default function Navigation7() {
                 <div className="border-t border-gray-200 py-6 px-4 space-y-6">
                   {navigation.pages.map((page) => (
                     <div key={page.name} className="flow-root">
-                      <a href={page.href} className="-m-2 p-2 block font-medium text-gray-900">
+                      <Link href={page.href} className="-m-2 p-2 block font-medium text-gray-900">
                         {page.name}
-                      </a>
+                      </Link>
                     </div>
                   ))}
                 </div>
 
                 <div className="border-t border-gray-200 py-6 px-4 space-y-6">
                   <div className="flow-root">
-                    <a href="#" className="-m-2 p-2 block font-medium text-gray-900">
+                    <Link href="#" className="-m-2 p-2 block font-medium text-gray-900">
                       Sign in
-                    </a>
+                    </Link>
                   </div>
                   <div className="flow-root">
-                    <a href="#" className="-m-2 p-2 block font-medium text-gray-900">
+                    <Link href="#" className="-m-2 p-2 block font-medium text-gray-900">
                       Create account
-                    </a>
+                    </Link>
                   </div>
                 </div>
 
                 <div className="border-t border-gray-200 py-6 px-4">
-                  <a href="#" className="-m-2 p-2 flex items-center">
+                  <Link href="#" className="-m-2 p-2 flex items-center">
                     <Image
                       src="https://tailwindui.com/img/flags/flag-united-states.svg"
                       alt=""
@@ -267,7 +268,7 @@ export default function Navigation7() {
                     />
                     <span className="ml-3 block text-base font-medium text-gray-900">USA</span>
                     <span className="sr-only">, change currency</span>
-                  </a>
+                  </Link>
                 </div>
               </Dialog.Panel>
             </Transition.Child>
@@ -276,8 +277,8 @@ export default function Navigation7() {
       </Transition.Root>
 
       <header className="relative bg-white">
-        <p className="bg-cyan-500 h-10 flex items-center justify-center text-sm font-medium text-pink-700 px-4 sm:px-6 lg:px-8">
-          Create a custom vinyl decal for Mother's Day!
+        <p className="bg-cyan-500 h-10 flex items-center justify-center text-sm font-medium text-blue-900 px-4 sm:px-6 lg:px-8">
+          Create a custom vinyl decal for 4th of July!
         </p>
 
         <nav aria-label="Top" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -294,7 +295,7 @@ export default function Navigation7() {
 
               {/* Logo (lg+) */}
               <div className="hidden lg:flex-none lg:flex lg:items-center">
-                  <a href="/">
+                  <Link href="/">
                     <span className="sr-only">StickyLife</span>
                     <Image
                       className="h-12 w-auto"
@@ -303,7 +304,7 @@ export default function Navigation7() {
                       width={140}
                       height={48}
                     />
-                  </a>
+                  </Link>
                 </div>
 
               {/* Flyout menus */}
@@ -353,10 +354,10 @@ export default function Navigation7() {
                                               layout="fill"
                                             />
                                           </div>
-                                          <a href={item.href} className="mt-6 block font-medium text-gray-900">
+                                          <Link href={item.href} className="mt-6 block font-medium text-gray-900">
                                             <span className="absolute z-10 inset-0" aria-hidden="true" />
                                             {item.name}
-                                          </a>
+                                          </Link>
                                           <p aria-hidden="true" className="mt-1">
                                             Shop now
                                           </p>
@@ -376,9 +377,9 @@ export default function Navigation7() {
                                           >
                                             {section.items.map((item) => (
                                               <li key={item.name} className="flex">
-                                                <a href={item.href} className="hover:text-gray-800">
+                                                <Link href={item.href} className="hover:text-gray-800">
                                                   {item.name}
-                                                </a>
+                                                </Link>
                                               </li>
                                             ))}
                                           </ul>
@@ -396,13 +397,13 @@ export default function Navigation7() {
                   ))}
 
                   {navigation.pages.map((page) => (
-                    <a
+                    <Link
                       key={page.name}
                       href={page.href}
                       className="flex items-center text-base font-bold text-black hover:text-gray-800"
                     >
                       {page.name}
-                    </a>
+                    </Link>
                   ))}
                 </div>
               </Popover.Group>
@@ -410,25 +411,25 @@ export default function Navigation7() {
               <div className="ml-auto flex items-center">
                 <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
                  {/* Create Account */}
-                  <a href="#" className="text-sm font-medium text-black hover:text-gray-800">
+                  <Link href="#" className="text-sm font-medium text-black hover:text-gray-800">
                     New Account
-                  </a>
+                  </Link>
                   <span className="h-6 w-px bg-gray-200" aria-hidden="true" />
                   {/* Log In */}
                 <div className="ml-4 flow-root lg:ml-6">
-                  <a href="#" className="group -m-2 p-2 flex items-center">
+                  <Link href="#" className="group -m-2 p-2 flex items-center">
                     <UserCircleIcon
                       className="flex-shrink-0 h-6 w-6 text-cyan-500 group-hover:text-blue-500"
                       aria-hidden="true"
                     />
                     <span className="ml-2 text-sm font-medium text-black group-hover:text-gray-800">Log In</span>
                     <span className="sr-only">Log In</span>
-                  </a>
+                  </Link>
                 </div>
                 </div>
 
                 <div className="hidden lg:ml-8 lg:flex">
-                  <a href="#" className="text-black hover:text-gray-800 flex items-center">
+                  <Link href="#" className="text-black hover:text-gray-800 flex items-center">
                     <Image
                       src="https://tailwindui.com/img/flags/flag-united-states.svg"
                       alt=""
@@ -438,7 +439,7 @@ export default function Navigation7() {
                     />
                     <span className="ml-3 block text-sm font-medium">USA</span>
                     <span className="sr-only">, change currency</span>
-                  </a>
+                  </Link>
                 </div>
 
                 {/* Search */}
@@ -459,14 +460,14 @@ export default function Navigation7() {
 
                 {/* Cart */}
                 <div className="ml-4 flow-root lg:ml-6">
-                  <a href="#" className="group -m-2 p-2 flex items-center">
+                  <Link href="#" className="group -m-2 p-2 flex items-center">
                     <ShoppingCartIcon
                       className="flex-shrink-0 h-6 w-6 text-cyan-500 group-hover:text-gray-500"
                       aria-hidden="true"
                     />
                     <span className="ml-2 text-sm font-medium text-black group-hover:text-gray-800">0</span>
                     <span className="sr-only">items in cart, view bag</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

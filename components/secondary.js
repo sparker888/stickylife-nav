@@ -435,10 +435,10 @@ export default function Secondary() {
                                  className="object-center object-cover"
                                  layout="fill" />
                               </div>
-                              <a href={item.href} className="mt-6 block text-sm font-medium text-gray-900">
+                              <Link href={item.href} className="mt-6 block text-sm font-medium text-gray-900">
                                 <span className="absolute z-10 inset-0" aria-hidden="true" />
                                 {item.name}
-                              </a>
+                              </Link>
                               <p aria-hidden="true" className="mt-1 text-sm text-gray-500">
                                 Shop now
                               </p>
@@ -509,10 +509,10 @@ export default function Secondary() {
                                                   layout="fill"
                                                 />
                                               </div>
-                                              <a href={item.href} className="mt-4 block font-medium text-gray-900">
+                                              <Link href={item.href} className="mt-4 block font-medium text-gray-900">
                                                 <span className="absolute z-10 inset-0" aria-hidden="true" />
                                                 {item.name}
-                                              </a>
+                                              </Link>
                                               <p aria-hidden="true" className="mt-1">
                                                 Shop now
                                               </p>
