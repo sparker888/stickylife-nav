@@ -413,7 +413,7 @@ export default function Secondary() {
                           key={category.name}
                           className={({ selected }) =>
                             classNames(
-                              selected ? 'text-indigo-600 border-indigo-600' : 'text-gray-900 border-transparent',
+                              selected ? 'text-cyan-500  border-0' : 'text-gray-900 border-transparent',
                               'flex-1 whitespace-nowrap py-4 px-1 border-b-2 text-base font-medium'
                             )
                           }
@@ -436,11 +436,11 @@ export default function Secondary() {
                                  className="object-center object-cover"
                                  layout="fill" />
                               </div>
-                              <Link href={item.href} className="mt-6 block text-sm font-medium text-gray-900">
-                                <div>
+                              <Link href={item.href}>
+                                <a className="mt-6 block text-sm font-medium text-gray-900">
                                 <span className="absolute z-10 inset-0" aria-hidden="true" />
                                 {item.name}
-                                </div>
+                                </a>
                               </Link>
                               <p aria-hidden="true" className="mt-1 text-sm text-gray-500">
                                 Shop now
@@ -464,7 +464,7 @@ export default function Secondary() {
           <div className="bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="border-b border-gray-200">
-                <div className="h-8 flex-1 items-center justify-between">
+                <div className="h-8 flex-1 items-center justify-between border-0">
                   <div className="hidden h-full lg:flex">
                     {/* Flyout menus */}
                     <Popover.Group className="px-4 bottom-0 inset-x-0 justify-center">
@@ -479,7 +479,7 @@ export default function Secondary() {
                                       open
                                         ? 'border-cyan-500 text-cyan-500'
                                         : 'border-transparent text-gray-700 hover:text-gray-800',
-                                      'relative z-10 flex items-center justify-center transition-colors ease-out duration-200 text-sm font-medium border-b-2 -mb-px pt-px'
+                                      'relative z-10 flex items-center justify-center transition-colors focus:outline-none focus:border-3 ease-out duration-200 text-sm font-medium border-b-2 -mb-px pt-px'
                                     )}
                                   >
                                     {category.name}
@@ -512,11 +512,11 @@ export default function Secondary() {
                                                   layout="fill"
                                                 />
                                               </div>
-                                              <Link href={item.href} className="mt-4 block font-medium text-gray-900">
-                                                <div>
+                                              <Link href={item.href}>
+                                                <a className="mt-4 block font-medium text-gray-900">
                                                 <span className="absolute z-10 inset-0" aria-hidden="true" />
                                                 {item.name}
-                                                </div>
+                                                </a>
                                               </Link>
                                               <p aria-hidden="true" className="mt-1">
                                                 Shop now
