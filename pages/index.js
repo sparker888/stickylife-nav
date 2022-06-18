@@ -485,9 +485,8 @@ export default function Navigation7() {
 
                 {/* Cart */}
                 <div className="ml-4 flow-root lg:ml-6">
-                  <div className="group -m-2 p-2 flex items-center">
                   <Link href="#">
-                  <a>
+                  <a className="group -m-2 p-2 flex items-center">
                     <ShoppingCartIcon
                       className="flex-shrink-0 h-6 w-6 text-cyan-500 group-hover:text-gray-500"
                       aria-hidden="true"
@@ -496,7 +495,6 @@ export default function Navigation7() {
                     <span className="sr-only">items in cart, view bag</span>
                     </a>
                   </Link>
-                  </div>
                 </div>
               </div>
             </div>
