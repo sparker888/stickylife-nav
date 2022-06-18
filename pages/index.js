@@ -334,7 +334,7 @@ export default function Navigation7() {
                                 open
                                   ? 'border-cyan-500 text-cyan-500'
                                   : 'border-transparent text-black hover:text-gray-800',
-                                'relative z-10 flex items-center transition-colors ease-out duration-200 text-base font-bold border-b-2 -mb-px pt-px'
+                                'relative z-10 flex items-center transition-colors ease-out duration-200 focus:outline-none text-base font-bold border-b-2 -mb-px pt-px'
                               )}
                             >
                               {category.name}
