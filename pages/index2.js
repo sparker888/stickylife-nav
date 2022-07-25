@@ -3,11 +3,11 @@ import * as React from "react"
 import { Fragment, useState } from "react"
 import { Dialog, Popover, Tab, Transition } from "@headlessui/react"
 import {
-	MenuIcon,
-	UserCircleIcon,
-	SearchIcon,
-	ShoppingCartIcon,
-	XIcon,
+  MenuIcon,
+  UserCircleIcon,
+  SearchIcon,
+  ShoppingCartIcon,
+  XIcon,
 } from "@heroicons/react/outline"
 import Secondary from "../components/secondary"
 import Image from "next/image"
@@ -20,18 +20,162 @@ const navigation = {
       name: "Products",
       featured: [
         {
-          name: "New Product",
+          name: "Vinyl Decals",
           href: "#",
           imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567859/Custom-Paper-Stickers_wmti9a.jpg",
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
           imageAlt:
             "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
         },
         {
-          name: "Another New Product",
+          name: "Reflective Stickers",
           href: "#",
           imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567918/circle-vinyl-sticker_eidzkj.jpg",
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
+          imageAlt:
+            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
+        },
+        {
+          name: "Static Clings",
+          href: "#",
+          imageSrc:
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
+          imageAlt:
+            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
+        },
+        {
+          name: "Pin Backed Buttons",
+          href: "#",
+          imageSrc:
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
+          imageAlt:
+            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
+        },
+        {
+          name: "Banners",
+          href: "#",
+          imageSrc:
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
+          imageAlt:
+            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
+        },
+        {
+          name: "Vinyl Decals",
+          href: "#",
+          imageSrc:
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
+          imageAlt:
+            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
+        },
+        {
+          name: "Reflective Stickers",
+          href: "#",
+          imageSrc:
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
+          imageAlt:
+            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
+        },
+        {
+          name: "Static Clings",
+          href: "#",
+          imageSrc:
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
+          imageAlt:
+            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
+        },
+        {
+          name: "Pin Backed Buttons",
+          href: "#",
+          imageSrc:
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
+          imageAlt:
+            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
+        },
+        {
+          name: "Banners",
+          href: "#",
+          imageSrc:
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
+          imageAlt:
+            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
+        },
+        {
+          name: "Stickers",
+          href: "#",
+          imageSrc:
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
+          imageAlt:
+            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
+        },
+        {
+          name: "Apparel",
+          href: "#",
+          imageSrc:
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
+          imageAlt:
+            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
+        },
+        {
+          name: "Dog Tags",
+          href: "#",
+          imageSrc:
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
+          imageAlt:
+            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
+        },
+        {
+          name: "License Plates",
+          href: "#",
+          imageSrc:
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
+          imageAlt:
+            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
+        },
+        {
+          name: "Signs",
+          href: "#",
+          imageSrc:
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
+          imageAlt:
+            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
+        },
+        {
+          name: "Car Magnets",
+          href: "#",
+          imageSrc:
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
+          imageAlt:
+            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
+        },
+        {
+          name: "Temporary Tattoos",
+          href: "#",
+          imageSrc:
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
+          imageAlt:
+            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
+        },
+        {
+          name: "Key Chains",
+          href: "#",
+          imageSrc:
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
+          imageAlt:
+            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
+        },
+        {
+          name: "License Plate Frames",
+          href: "#",
+          imageSrc:
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
+          imageAlt:
+            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
+        },
+        {
+          name: "Accessories",
+          href: "#",
+          imageSrc:
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
           imageAlt:
             "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
         },
@@ -40,35 +184,7 @@ const navigation = {
         {
           id: "section-1",
           name: "Section 1",
-          items: [
-            { name: "Vinyl Decals", href: "#" },
-            { name: "Reflective Stickers", href: "#" },
-            { name: "Static Clings", href: "#" },
-            { name: "Pin Backed Buttons", href: "#" },
-            { name: "Banners", href: "#" },
-          ],
-        },
-        {
-          id: "section-2",
-          name: "Section 2",
-          items: [
-            { name: "Stickers", href: "#" },
-            { name: "Apparel", href: "#" },
-            { name: "Dog Tags", href: "#" },
-            { name: "License Plates", href: "#" },
-            { name: "Signs", href: "#" },
-          ],
-        },
-        {
-          id: "section-3",
-          name: "Section 3",
-          items: [
-            { name: "Car Magnets", href: "#" },
-            { name: "Temporary Tattoos", href: "#" },
-            { name: "Key Chains", href: "#" },
-            { name: "License Plate Frames", href: "#" },
-            { name: "Accessories", href: "#" },
-          ],
+          items: [{ name: "", href: "" }],
         },
       ],
     },
@@ -137,13 +253,13 @@ const navigation = {
 }
 
 function classNames(...classes) {
-	return classes.filter(Boolean).join(" ")
+  return classes.filter(Boolean).join(" ")
 }
 
 export default function Navigation7() {
-	const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false)
 
-	return (
+  return (
     <div className="bg-white">
       {/* Mobile menu */}
       <Transition.Root show={open} as={Fragment}>
@@ -224,7 +340,7 @@ export default function Navigation7() {
                                 />
                               </div>
                               <Link href={item.href}>
-                                <a className="mt-6 block font-medium text-gray-900">
+                                <a className="mb-6 block font-medium text-gray-900">
                                   <span
                                     className="absolute z-10 inset-0"
                                     aria-hidden="true"
@@ -232,29 +348,20 @@ export default function Navigation7() {
                                   {item.name}
                                 </a>
                               </Link>
-                              <p aria-hidden="true" className="mt-1">
-                                Shop now
-                              </p>
                             </div>
                           ))}
                         </div>
                         {category.sections.map(section => (
                           <div key={section.name}>
-                            <p
-                              id={`${category.id}-${section.id}-heading-mobile`}
-                              className="font-medium text-gray-900"
-                            >
-                              {section.name}
-                            </p>
                             <ul
                               role="list"
                               aria-labelledby={`${category.id}-${section.id}-heading-mobile`}
-                              className="mt-6 flex flex-col space-y-6"
+                              className="flex flex-col space-y-6"
                             >
                               {section.items.map(item => (
                                 <li key={item.name} className="flow-root">
                                   <Link href={item.href}>
-                                    <a className="-m-2 p-2 block text-gray-500">
+                                    <a className=" text-gray-500">
                                       {item.name}
                                     </a>
                                   </Link>
@@ -418,28 +525,16 @@ export default function Navigation7() {
                                               {item.name}
                                             </a>
                                           </Link>
-                                          <p
-                                            aria-hidden="true"
-                                            className="mt-1"
-                                          >
-                                            Shop now
-                                          </p>
                                         </div>
                                       ))}
                                     </div>
                                     <div className="row-start-1 grid grid-cols-3 gap-y-10 gap-x-8 text-sm">
                                       {category.sections.map(section => (
                                         <div key={section.name}>
-                                          <p
-                                            id={`${section.name}-heading`}
-                                            className="font-medium text-gray-900"
-                                          >
-                                            {section.name}
-                                          </p>
                                           <ul
                                             role="list"
                                             aria-labelledby={`${section.name}-heading`}
-                                            className="mt-6 space-y-6 sm:mt-4 sm:space-y-4"
+                                            className="space-y-6 sm:mt-4 sm:space-y-4"
                                           >
                                             {section.items.map(item => (
                                               <li
