@@ -560,10 +560,19 @@ export default function Navigation7() {
       </Transition.Root>
 
       <header className="relative bg-white">
-        <p className="bg-cyan-500 h-10 flex items-center justify-center text-sm font-medium text-blue-900 px-4 sm:px-6 lg:px-8">
+        <p className=" hidden sm:flex bg-cyan-500 h-10 items-center justify-center text-sm font-medium text-blue-900 px-4 sm:px-6 lg:px-8">
           Promotional message goes here!
         </p>
-
+        <div className="block sm:hidden bg-cyan-500 h-20 flex items-center justify-center text-sm font-medium text-blue-900 px-4 sm:px-6 lg:px-8">
+          <span className="sr-only">StickyLife</span>
+          <Image
+            className="h-12 w-auto"
+            src="https://res.cloudinary.com/gravital-digital/image/upload/v1648486325/logo_qojvzx.svg"
+            alt=""
+            width={140}
+            height={48}
+          />
+        </div>
         <nav
           aria-label="Top"
           className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
