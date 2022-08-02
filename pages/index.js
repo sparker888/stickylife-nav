@@ -182,9 +182,10 @@ export default function Navigation7() {
                   </button>
                 </div>
 
-                {/* Links */}
+                {/* Tab Group */}
                 <Tab.Group as="div" className="mt-2">
                   <div className="border-b border-gray-200">
+                    {/* Tab List - Products & Design Ideas */}
                     <Tab.List className="-mb-px flex px-4 space-x-8">
                       {navigation.categories.map(category => (
                         <Tab
@@ -203,12 +204,14 @@ export default function Navigation7() {
                       ))}
                     </Tab.List>
                   </div>
+                  {/* Tab Panels */}
                   <Tab.Panels as={Fragment}>
                     {navigation.categories.map(category => (
                       <Tab.Panel
                         key={category.name}
                         className="pt-10 pb-8 px-4 space-y-10"
                       >
+                        {/* Featured Products */}
                         <div className="grid grid-cols-2 gap-x-4">
                           {category.featured.map(item => (
                             <div
@@ -238,6 +241,8 @@ export default function Navigation7() {
                             </div>
                           ))}
                         </div>
+                        {/* End Featured Products */}
+                        {/* Items in Categories */}
                         {category.sections.map(section => (
                           <div key={section.name}>
                             <p

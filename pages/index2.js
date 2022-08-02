@@ -298,9 +298,10 @@ export default function Navigation7() {
                   </button>
                 </div>
 
-                {/* Links */}
+                {/* Tab Group */}
                 <Tab.Group as="div" className="mt-2">
                   <div className="border-b border-gray-200">
+                    {/* Tab List - Products & Design Ideas */}
                     <Tab.List className="-mb-px flex px-4 space-x-8">
                       {navigation.categories.map(category => (
                         <Tab
@@ -319,12 +320,14 @@ export default function Navigation7() {
                       ))}
                     </Tab.List>
                   </div>
+                  {/* Tab Panels */}
                   <Tab.Panels as={Fragment}>
                     {navigation.categories.map(category => (
                       <Tab.Panel
                         key={category.name}
                         className="pt-10 pb-8 px-4 space-y-10"
                       >
+                        {/* Featured Products */}
                         <div className="grid grid-cols-2 gap-x-4">
                           {category.featured.map(item => (
                             <div
@@ -351,6 +354,8 @@ export default function Navigation7() {
                             </div>
                           ))}
                         </div>
+                        {/* End Featured Products */}
+                        {/* Category Headings */}
                         {category.sections.map(section => (
                           <div key={section.name}>
                             <ul
@@ -358,6 +363,7 @@ export default function Navigation7() {
                               aria-labelledby={`${category.id}-${section.id}-heading-mobile`}
                               className="flex flex-col space-y-6"
                             >
+                              {/* Items in Categories */}
                               {section.items.map(item => (
                                 <li key={item.name} className="flow-root">
                                   <Link href={item.href}>
@@ -375,6 +381,7 @@ export default function Navigation7() {
                   </Tab.Panels>
                 </Tab.Group>
 
+                {/* Pages */}
                 <div className="border-t border-gray-200 py-6 px-4 space-y-6">
                   {navigation.pages.map(page => (
                     <div key={page.name} className="flow-root">
@@ -386,7 +393,7 @@ export default function Navigation7() {
                     </div>
                   ))}
                 </div>
-
+                {/* Login */}
                 <div className="border-t border-gray-200 py-6 px-4 space-y-6">
                   <div className="flow-root">
                     <Link href="#">
@@ -403,7 +410,7 @@ export default function Navigation7() {
                     </Link>
                   </div>
                 </div>
-
+                {/* Currency */}
                 <div className="border-t border-gray-200 py-6 px-4">
                   <Link href="#">
                     <a className="-m-2 p-2 flex items-center">
