@@ -3,11 +3,11 @@ import * as React from "react"
 import { Fragment, useState } from "react"
 import { Dialog, Popover, Tab, Transition } from "@headlessui/react"
 import {
-  MenuIcon,
-  UserCircleIcon,
-  SearchIcon,
-  ShoppingCartIcon,
-  XIcon,
+	MenuIcon,
+	UserCircleIcon,
+	SearchIcon,
+	ShoppingCartIcon,
+	XIcon,
 } from "@heroicons/react/outline"
 import Secondary from "../components/secondary"
 import Image from "next/image"
@@ -41,138 +41,33 @@ const navigation = {
           id: "section-1",
           name: "Section 1",
           items: [
-            {
-              name: "Vinyl Decals",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Reflective Stickers",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Static Clings",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Pin Backed Buttons",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Banners",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
+            { name: "Vinyl Decals", href: "#" },
+            { name: "Reflective Stickers", href: "#" },
+            { name: "Static Clings", href: "#" },
+            { name: "Pin Backed Buttons", href: "#" },
+            { name: "Banners", href: "#" },
           ],
         },
         {
           id: "section-2",
           name: "Section 2",
           items: [
-            {
-              name: "Stickers",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Apparel",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Dog Tags",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "License Plates",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Signs",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
+            { name: "Stickers", href: "#" },
+            { name: "Apparel", href: "#" },
+            { name: "Dog Tags", href: "#" },
+            { name: "License Plates", href: "#" },
+            { name: "Signs", href: "#" },
           ],
         },
         {
           id: "section-3",
           name: "Section 3",
           items: [
-            {
-              name: "Car Magnets",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Temporary Tattoos",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Key Chains",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "License Plate Frames",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Accessories",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
+            { name: "Car Magnets", href: "#" },
+            { name: "Temporary Tattoos", href: "#" },
+            { name: "Key Chains", href: "#" },
+            { name: "License Plate Frames", href: "#" },
+            { name: "Accessories", href: "#" },
           ],
         },
       ],
@@ -203,162 +98,36 @@ const navigation = {
           id: "section-1",
           name: "Section 1",
           items: [
-            {
-              name: "Design Ideas",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Sports",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Home Decor",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Animals",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Religion",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Multicultural",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
+            { name: "Design Ideas", href: "#" },
+            { name: "Sports", href: "#" },
+            { name: "Home Decor", href: "#" },
+            { name: "Animals", href: "#" },
+            { name: "Religion", href: "#" },
+            { name: "Multicultural", href: "#" },
           ],
         },
         {
           id: "section-2",
           name: "Section 2",
           items: [
-            {
-              name: "Holidays",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Public Service",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Business",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Special Events",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Miscellaneous",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Social Events",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
+            { name: "Holidays", href: "#" },
+            { name: "Public Service", href: "#" },
+            { name: "Business", href: "#" },
+            { name: "Special Events", href: "#" },
+            { name: "Miscellaneous", href: "#" },
+            { name: "Social Events", href: "#" },
           ],
         },
         {
           id: "section-3",
           name: "Section 3",
           items: [
-            {
-              name: "Trending",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Clubs & Groups",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Schools",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Politics",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "Humor & Pop Culture",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
-            {
-              name: "LGBT Community",
-              href: "#",
-              imageSrc:
-                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
-              imageAlt:
-                "Custom reflective stickers as an option for high visibility in low light scenarios.",
-            },
+            { name: "Trending", href: "#" },
+            { name: "Clubs & Groups", href: "#" },
+            { name: "Schools", href: "#" },
+            { name: "Politics", href: "#" },
+            { name: "Humor & Pop Culture", href: "#" },
+            { name: "LGBT Community", href: "#" },
           ],
         },
       ],
@@ -368,13 +137,13 @@ const navigation = {
 }
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(" ")
+	return classes.filter(Boolean).join(" ")
 }
 
 export default function Navigation7() {
-  const [open, setOpen] = useState(false)
+	const [open, setOpen] = useState(false)
 
-  return (
+	return (
     <div className="bg-white">
       {/* Mobile menu */}
       <Transition.Root show={open} as={Fragment}>
@@ -443,7 +212,7 @@ export default function Navigation7() {
                         className="pt-10 pb-8 px-4 space-y-10"
                       >
                         {/* Featured Products */}
-                        <div className="grid grid-cols-2 gap-x-4 hidden sm:block">
+                        <div className="grid grid-cols-2 gap-x-4">
                           {category.featured.map(item => (
                             <div
                               key={item.name}
@@ -458,7 +227,7 @@ export default function Navigation7() {
                                 />
                               </div>
                               <Link href={item.href}>
-                                <a className="mb-6 block font-medium text-gray-900">
+                                <a className="mt-6 block font-medium text-gray-900">
                                   <span
                                     className="absolute z-10 inset-0"
                                     aria-hidden="true"
@@ -466,33 +235,31 @@ export default function Navigation7() {
                                   {item.name}
                                 </a>
                               </Link>
+                              <p aria-hidden="true" className="mt-1">
+                                Shop now
+                              </p>
                             </div>
                           ))}
                         </div>
                         {/* End Featured Products */}
-                        {/* Category Headings */}
+                        {/* Items in Categories */}
                         {category.sections.map(section => (
                           <div key={section.name}>
+                            <p
+                              id={`${category.id}-${section.id}-heading-mobile`}
+                              className="font-medium text-gray-900"
+                            >
+                              {section.name}
+                            </p>
                             <ul
                               role="list"
                               aria-labelledby={`${category.id}-${section.id}-heading-mobile`}
-                              className="flex flex-col space-y-6"
+                              className="mt-6 flex flex-col space-y-6"
                             >
-                              {/* Items in Categories */}
                               {section.items.map(item => (
                                 <li key={item.name} className="flow-root">
                                   <Link href={item.href}>
-                                    <a className=" text-gray-500">
-                                      {/* new code */}
-                                      <div className="aspect-w-1 aspect-h-1 rounded-lg bg-gray-100 overflow-hidden group-hover:opacity-75 block sm:hidden">
-                                        <Image
-                                          src={item.imageSrc}
-                                          alt={item.imageAlt}
-                                          className="object-center object-cover"
-                                          layout="fill"
-                                        />
-                                      </div>
-                                      {/* new code */}
+                                    <a className="-m-2 p-2 block text-gray-500">
                                       {item.name}
                                     </a>
                                   </Link>
@@ -506,7 +273,6 @@ export default function Navigation7() {
                   </Tab.Panels>
                 </Tab.Group>
 
-                {/* Pages */}
                 <div className="border-t border-gray-200 py-6 px-4 space-y-6">
                   {navigation.pages.map(page => (
                     <div key={page.name} className="flow-root">
@@ -518,7 +284,7 @@ export default function Navigation7() {
                     </div>
                   ))}
                 </div>
-                {/* Login */}
+
                 <div className="border-t border-gray-200 py-6 px-4 space-y-6">
                   <div className="flow-root">
                     <Link href="#">
@@ -535,7 +301,7 @@ export default function Navigation7() {
                     </Link>
                   </div>
                 </div>
-                {/* Currency */}
+
                 <div className="border-t border-gray-200 py-6 px-4">
                   <Link href="#">
                     <a className="-m-2 p-2 flex items-center">
@@ -657,16 +423,28 @@ export default function Navigation7() {
                                               {item.name}
                                             </a>
                                           </Link>
+                                          <p
+                                            aria-hidden="true"
+                                            className="mt-1"
+                                          >
+                                            Shop now
+                                          </p>
                                         </div>
                                       ))}
                                     </div>
                                     <div className="row-start-1 grid grid-cols-3 gap-y-10 gap-x-8 text-sm">
                                       {category.sections.map(section => (
                                         <div key={section.name}>
+                                          <p
+                                            id={`${section.name}-heading`}
+                                            className="font-medium text-gray-900"
+                                          >
+                                            {section.name}
+                                          </p>
                                           <ul
                                             role="list"
                                             aria-labelledby={`${section.name}-heading`}
-                                            className="space-y-6 sm:mt-4 sm:space-y-4"
+                                            className="mt-6 space-y-6 sm:mt-4 sm:space-y-4"
                                           >
                                             {section.items.map(item => (
                                               <li

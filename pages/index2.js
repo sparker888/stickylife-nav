@@ -20,162 +20,18 @@ const navigation = {
       name: "Products",
       featured: [
         {
-          name: "Vinyl Decals",
+          name: "New Product",
           href: "#",
           imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567859/Custom-Paper-Stickers_wmti9a.jpg",
           imageAlt:
             "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
         },
         {
-          name: "Reflective Stickers",
+          name: "Another New Product",
           href: "#",
           imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
-          imageAlt:
-            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
-        },
-        {
-          name: "Static Clings",
-          href: "#",
-          imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
-          imageAlt:
-            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
-        },
-        {
-          name: "Pin Backed Buttons",
-          href: "#",
-          imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
-          imageAlt:
-            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
-        },
-        {
-          name: "Banners",
-          href: "#",
-          imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
-          imageAlt:
-            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
-        },
-        {
-          name: "Vinyl Decals",
-          href: "#",
-          imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
-          imageAlt:
-            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
-        },
-        {
-          name: "Reflective Stickers",
-          href: "#",
-          imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
-          imageAlt:
-            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
-        },
-        {
-          name: "Static Clings",
-          href: "#",
-          imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
-          imageAlt:
-            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
-        },
-        {
-          name: "Pin Backed Buttons",
-          href: "#",
-          imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
-          imageAlt:
-            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
-        },
-        {
-          name: "Banners",
-          href: "#",
-          imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
-          imageAlt:
-            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
-        },
-        {
-          name: "Stickers",
-          href: "#",
-          imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
-          imageAlt:
-            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
-        },
-        {
-          name: "Apparel",
-          href: "#",
-          imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
-          imageAlt:
-            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
-        },
-        {
-          name: "Dog Tags",
-          href: "#",
-          imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
-          imageAlt:
-            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
-        },
-        {
-          name: "License Plates",
-          href: "#",
-          imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
-          imageAlt:
-            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
-        },
-        {
-          name: "Signs",
-          href: "#",
-          imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
-          imageAlt:
-            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
-        },
-        {
-          name: "Car Magnets",
-          href: "#",
-          imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
-          imageAlt:
-            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
-        },
-        {
-          name: "Temporary Tattoos",
-          href: "#",
-          imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
-          imageAlt:
-            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
-        },
-        {
-          name: "Key Chains",
-          href: "#",
-          imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
-          imageAlt:
-            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
-        },
-        {
-          name: "License Plate Frames",
-          href: "#",
-          imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
-          imageAlt:
-            "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
-        },
-        {
-          name: "Accessories",
-          href: "#",
-          imageSrc:
-            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567954/Reflective-StickerSheets_hd14ud.jpg",
+            "https://res.cloudinary.com/gravital-digital/image/upload/v1648567918/circle-vinyl-sticker_eidzkj.jpg",
           imageAlt:
             "Tousled polaroid tilde praxis poutine godard synth blue bottle.",
         },
@@ -184,7 +40,110 @@ const navigation = {
         {
           id: "section-1",
           name: "Section 1",
-          items: [{ name: "", href: "" }],
+          items: [
+            {
+              name: "Vinyl Decals",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Reflective Stickers",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Static Clings",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Pin Backed Buttons",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Banners",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+          ],
+        },
+        {
+          id: "section-2",
+          name: "Section 2",
+          items: [
+            {
+              name: "Stickers",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Apparel",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Dog Tags",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "License Plates",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Signs",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+          ],
+        },
+        {
+          id: "section-3",
+          name: "Section 3",
+          items: [
+            {
+              name: "Car Magnets",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Temporary Tattoos",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Key Chains",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "License Plate Frames",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Accessories",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+          ],
         },
       ],
     },
@@ -214,36 +173,126 @@ const navigation = {
           id: "section-1",
           name: "Section 1",
           items: [
-            { name: "Design Ideas", href: "#" },
-            { name: "Sports", href: "#" },
-            { name: "Home Decor", href: "#" },
-            { name: "Animals", href: "#" },
-            { name: "Religion", href: "#" },
-            { name: "Multicultural", href: "#" },
+            {
+              name: "Design Ideas",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Sports",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Home Decor",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Animals",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Religion",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Multicultural",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
           ],
         },
         {
           id: "section-2",
           name: "Section 2",
           items: [
-            { name: "Holidays", href: "#" },
-            { name: "Public Service", href: "#" },
-            { name: "Business", href: "#" },
-            { name: "Special Events", href: "#" },
-            { name: "Miscellaneous", href: "#" },
-            { name: "Social Events", href: "#" },
+            {
+              name: "Holidays",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Public Service",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Business",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Special Events",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Miscellaneous",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Social Events",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
           ],
         },
         {
           id: "section-3",
           name: "Section 3",
           items: [
-            { name: "Trending", href: "#" },
-            { name: "Clubs & Groups", href: "#" },
-            { name: "Schools", href: "#" },
-            { name: "Politics", href: "#" },
-            { name: "Humor & Pop Culture", href: "#" },
-            { name: "LGBT Community", href: "#" },
+            {
+              name: "Trending",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Clubs & Groups",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Schools",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Politics",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "Humor & Pop Culture",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
+            {
+              name: "LGBT Community",
+              href: "#",
+              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
+          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+            },
           ],
         },
       ],
@@ -328,7 +377,7 @@ export default function Navigation7() {
                         className="pt-10 pb-8 px-4 space-y-10"
                       >
                         {/* Featured Products */}
-                        <div className="grid grid-cols-2 gap-x-4">
+                        <div className="grid grid-cols-2 gap-x-4 hidden sm:block">
                           {category.featured.map(item => (
                             <div
                               key={item.name}
@@ -368,6 +417,16 @@ export default function Navigation7() {
                                 <li key={item.name} className="flow-root">
                                   <Link href={item.href}>
                                     <a className=" text-gray-500">
+                                      {/* new code */}
+                                      <div className="aspect-w-1 aspect-h-1 rounded-lg bg-gray-100 overflow-hidden group-hover:opacity-75 block sm:hidden">
+                                        <Image
+                                          src={item.imageSrc}
+                                          alt={item.imageAlt}
+                                          className="object-center object-cover"
+                                          layout="fill"
+                                        />
+                                      </div>
+                                      {/* new code */}
                                       {item.name}
                                     </a>
                                   </Link>
