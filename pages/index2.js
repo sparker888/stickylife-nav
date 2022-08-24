@@ -44,32 +44,42 @@ const navigation = {
             {
               name: "Vinyl Decals",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Reflective Stickers",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Static Clings",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Pin Backed Buttons",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Banners",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
           ],
         },
@@ -80,32 +90,42 @@ const navigation = {
             {
               name: "Stickers",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Apparel",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Dog Tags",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "License Plates",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Signs",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
           ],
         },
@@ -116,32 +136,42 @@ const navigation = {
             {
               name: "Car Magnets",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Temporary Tattoos",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Key Chains",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "License Plate Frames",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Accessories",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566369/competitor-image-3_s0jzy1.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
           ],
         },
@@ -176,38 +206,50 @@ const navigation = {
             {
               name: "Design Ideas",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Sports",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Home Decor",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Animals",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Religion",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Multicultural",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
           ],
         },
@@ -218,38 +260,50 @@ const navigation = {
             {
               name: "Holidays",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Public Service",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Business",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Special Events",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Miscellaneous",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Social Events",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
           ],
         },
@@ -260,38 +314,50 @@ const navigation = {
             {
               name: "Trending",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Clubs & Groups",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Schools",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Politics",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "Humor & Pop Culture",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
             {
               name: "LGBT Community",
               href: "#",
-              imageSrc: 'https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg',
-          imageAlt: 'Custom reflective stickers as an option for high visibility in low light scenarios.',
+              imageSrc:
+                "https://res.cloudinary.com/gravital-digital/image/upload/v1648566391/competitor-image-4_xmiac6.jpg",
+              imageAlt:
+                "Custom reflective stickers as an option for high visibility in low light scenarios.",
             },
           ],
         },
@@ -494,10 +560,19 @@ export default function Navigation7() {
       </Transition.Root>
 
       <header className="relative bg-white">
-        <p className="bg-cyan-500 h-10 flex items-center justify-center text-sm font-medium text-blue-900 px-4 sm:px-6 lg:px-8">
+        <p className=" hidden sm:flex bg-cyan-500 h-10 items-center justify-center text-sm font-medium text-blue-900 px-4 sm:px-6 lg:px-8">
           Promotional message goes here!
         </p>
-
+        <div className="block sm:hidden bg-cyan-500 h-20 flex items-center justify-center text-sm font-medium text-blue-900 px-4 sm:px-6 lg:px-8">
+          <span className="sr-only">StickyLife</span>
+          <Image
+            className="h-12 w-auto"
+            src="https://res.cloudinary.com/gravital-digital/image/upload/v1648486325/logo_qojvzx.svg"
+            alt=""
+            width={140}
+            height={48}
+          />
+        </div>
         <nav
           aria-label="Top"
           className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
