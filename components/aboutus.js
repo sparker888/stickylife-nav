@@ -1,13 +1,15 @@
 import * as React from "react"
+import Image from "next/image"
 
 const About = () => {
   return (
     <div className="relative bg-gray-800 py-32 px-6 sm:py-40 sm:px-12 lg:px-16">
       <div className="absolute inset-0 overflow-hidden">
-        <img
+        <Image
           src="https://res.cloudinary.com/gravital-digital/image/upload/v1648506291/jennifer-griffin-WmC0TNCItBY-unsplash_ypjhhd.jpg"
           alt=""
           className="w-full h-full object-center object-cover"
+          layout="fill"
         />
       </div>
       <div
@@ -22,12 +24,13 @@ const About = () => {
           Supporting creativity and expression
         </h2>
         <p className="mt-3 text-xl text-white">
-          We're committed to supporting creative, expressive and eccentric
-          individuals. More than ever, we're seeing artwork from open-minded,
-          tech-savvy, and socially conscious artists, and we want to support
-          reflecting that self expression with products for your laptops, cars,
-          windows and personal accessories. We hope that you will get to know us
-          and give us the opportunity to be your canvas. Let's get creative!
+          We`&apos;`re committed to supporting creative, expressive and
+          eccentric individuals. More than ever, we`&apos;`re seeing artwork
+          from open-minded, tech-savvy, and socially conscious artists, and we
+          want to support reflecting that self expression with products for your
+          laptops, cars, windows and personal accessories. We hope that you will
+          get to know us and give us the opportunity to be your canvas.
+          Let`&apos;`s get creative!
         </p>
         <a
           href="#"

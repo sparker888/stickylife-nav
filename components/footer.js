@@ -1,4 +1,5 @@
 import * as React from "react"
+import Image from "next/image"
 
 const footerNavigation = {
   styleguide: [
@@ -27,9 +28,7 @@ const footerNavigation = {
 
 const Footer = () => {
   return (
-    <div
-      className="bg-gradient-to-r from-cyan-200 via-purple-200 to-pink-200"
-    >
+    <div className="bg-gradient-to-r from-cyan-200 via-purple-200 to-pink-200">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -38,10 +37,12 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-12 md:grid-flow-col md:gap-x-8 md:gap-y-16 md:auto-rows-min">
             {/* Image section */}
             <div className="col-span-1 md:col-span-2 lg:row-start-1 lg:col-start-1">
-              <img
+              <Image
                 src="https://res.cloudinary.com/gravital-digital/image/upload/v1648487162/sticky-foot_z0zkqz.png"
                 alt=""
                 className="h-8 w-auto"
+                width={33}
+                height={32}
               />
             </div>
 
@@ -101,7 +102,7 @@ const Footer = () => {
             {/* Newsletter section */}
             <div className="mt-12 md:mt-0 md:row-start-2 md:col-start-3 md:col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4">
               <h3 className="text-lg font-lg italic text-red-800">
-                Sign up for StickyLife's newsletter!
+                Sign up for StickyLife`&apos;`s newsletter!
               </h3>
               <p className="mt-6 text-sm text-cyan-900">
                 The latest deals and savings, sent to your inbox monthly. You’ll
@@ -128,10 +129,12 @@ const Footer = () => {
                 </div>
               </form>
               <div className="py-10">
-                <img
+                <Image
                   src="https://res.cloudinary.com/gravital-digital/image/upload/v1648501873/firefox_KWNzb3dfqo_yytmdi.png"
                   alt=""
                   className="w-auto"
+                  width={369}
+                  height={212}
                 />
               </div>
             </div>
@@ -146,7 +149,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </div>  
+    </div>
   )
 }
 

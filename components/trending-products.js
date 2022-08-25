@@ -1,3 +1,6 @@
+import * as React from "react"
+import Image from "next/image"
+
 const trendingProducts = [
   {
     id: 1,
@@ -110,10 +113,12 @@ export default function TrendingProducts() {
           {trendingProducts.map(product => (
             <div key={product.id} className="group relative">
               <div className="w-full h-56 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
-                <img
+                <Image
                   src={product.imageSrc}
                   alt={product.imageAlt}
                   className="w-full h-full object-center object-cover"
+                  width={350}
+                  height={350}
                 />
               </div>
               <h3 className="mt-4 font-black text-black">

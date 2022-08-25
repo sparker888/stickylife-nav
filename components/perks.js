@@ -1,4 +1,5 @@
 import * as React from "react"
+import Image from "next/image"
 
 const perks = [
   {
@@ -51,6 +52,7 @@ const Perks = () => {
                     className="-my-1 h-24 w-auto mx-auto"
                     src={perk.imageUrl}
                     alt=""
+                    layout="fill"
                   />
                 </div>
               </div>
