@@ -93,7 +93,7 @@ export default function Example() {
                 <div className="flex flex-col mt-6 space-y-3 lg:space-y-0 lg:flex-row">
                   <a
                     href="#"
-                    className="block px-3 py-2 text-sm font-semibold text-center text-white transition-colors duration-200 transform bg-cyan-500 rounded-md hover:bg-pink-600"
+                    className="block px-6 py-4 text-3xl font-semibold text-center text-white transition-colors duration-200 transform bg-cyan-500 rounded-md hover:bg-pink-600"
                   >
                     Get Started
                   </a>
