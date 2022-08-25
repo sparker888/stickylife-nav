@@ -367,6 +367,7 @@ export default function Secondary() {
 
   return (
     <div className="bg-white">
+    <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
       {/* Mobile menu */}
       <Transition.Root show={open} as={Fragment}>
         <Dialog as="div" className="relative z-40 lg:hidden" onClose={setOpen}>
@@ -463,7 +464,7 @@ export default function Secondary() {
           {/* Secondary navigation */}
           <div className="bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div className="border-b border-gray-200">
+              <div className="hidden sm:block border-b border-gray-200">
                 <div className="h-8 flex-1 items-center justify-between border-0">
                   <div className="hidden h-full lg:flex">
                     {/* Flyout menus */}
@@ -541,6 +542,7 @@ export default function Secondary() {
           </div>
         </nav>
       </header>
+     </div>
     </div>
   )
 }

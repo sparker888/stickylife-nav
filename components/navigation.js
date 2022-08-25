@@ -435,12 +435,59 @@ export default function Navigation7() {
                       ))}
                     </Tab.List>
                   </div>
+                  {/* Login */}
+                  <div className="border-t border-gray-200 py-6 px-4 space-y-6">
+                    <div className="flow-root">
+                      <Link href="#">
+                        <a className="-m-2 p-2 block font-medium text-gray-900">
+                          Log in
+                        </a>
+                      </Link>
+                    </div>
+                    <div className="flow-root">
+                      <Link href="#">
+                        <a className="-m-2 p-2 block font-medium text-gray-900">
+                          New Account
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+                  {/* Currency */}
+                  <div className="border-t border-gray-200 py-4 px-4">
+                    <Link href="#">
+                      <a className="-m-2 p-2 flex items-center">
+                        <Image
+                          src="https://tailwindui.com/img/flags/flag-united-states.svg"
+                          alt=""
+                          className="w-5 h-auto block flex-shrink-0"
+                          width={20}
+                          height={15}
+                        />
+                        <span className="ml-3 block text-base font-medium text-gray-900">
+                          USA
+                        </span>
+                        <span className="sr-only">, change currency</span>
+                      </a>
+                    </Link>
+                  </div>
+                  {/* Pages */}
+                  <div className="border-t border-gray-200 py-4 px-4 space-y-6">
+                    {navigation.pages.map(page => (
+                      <div key={page.name} className="flow-root">
+                        <Link href={page.href}>
+                          <a className="-m-2 p-2 block font-medium text-gray-900">
+                            {page.name}
+                          </a>
+                        </Link>
+                      </div>
+                    ))}
+                  </div>
                   {/* Tab Panels */}
                   <Tab.Panels as={Fragment}>
                     {navigation.categories.map(category => (
                       <Tab.Panel
                         key={category.name}
-                        className="pt-10 pb-8 px-4 space-y-10"
+                        className="pt-2 pb-8 px-4 space-y-10"
                       >
                         {/* Featured Products */}
                         <div className="grid grid-cols-2 gap-x-4 hidden sm:block">
@@ -505,54 +552,6 @@ export default function Navigation7() {
                     ))}
                   </Tab.Panels>
                 </Tab.Group>
-
-                {/* Pages */}
-                <div className="border-t border-gray-200 py-6 px-4 space-y-6">
-                  {navigation.pages.map(page => (
-                    <div key={page.name} className="flow-root">
-                      <Link href={page.href}>
-                        <a className="-m-2 p-2 block font-medium text-gray-900">
-                          {page.name}
-                        </a>
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-                {/* Login */}
-                <div className="border-t border-gray-200 py-6 px-4 space-y-6">
-                  <div className="flow-root">
-                    <Link href="#">
-                      <a className="-m-2 p-2 block font-medium text-gray-900">
-                        Log in
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="flow-root">
-                    <Link href="#">
-                      <a className="-m-2 p-2 block font-medium text-gray-900">
-                        New Account
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-                {/* Currency */}
-                <div className="border-t border-gray-200 py-6 px-4">
-                  <Link href="#">
-                    <a className="-m-2 p-2 flex items-center">
-                      <Image
-                        src="https://tailwindui.com/img/flags/flag-united-states.svg"
-                        alt=""
-                        className="w-5 h-auto block flex-shrink-0"
-                        width={20}
-                        height={15}
-                      />
-                      <span className="ml-3 block text-base font-medium text-gray-900">
-                        USA
-                      </span>
-                      <span className="sr-only">, change currency</span>
-                    </a>
-                  </Link>
-                </div>
               </Dialog.Panel>
             </Transition.Child>
           </div>
