@@ -89,7 +89,7 @@ function classNames(...classes) {
 
 export default function TrendingProducts() {
   return (
-    <div className="bg-contain bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1648503475/color-background_m2vfv2.jpg')]">
+    <div className="bg-contain bg-white">
       <div className="max-w-7xl mx-auto py-24 px-4 sm:px-6 sm:py-32 lg:pt-32 lg:px-8">
         <div className="md:flex md:items-center md:justify-between">
           <h2

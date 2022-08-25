@@ -16,6 +16,9 @@ This example requires Tailwind CSS v2.0+
   }
   ```
 */
+import * as React from "react"
+import Image from "next/image"
+
 const features = [
   {
     line0: "Custom Stickers",
@@ -105,9 +108,10 @@ export default function Example() {
                 )}
               >
                 <div className="aspect-w-5 aspect-h-5 rounded-lg bg-gray-100 overflow-hidden">
-                  <img
+                  <Image
                     src={feature.imageSrc}
                     alt={feature.imageAlt}
+                    layout="fill"
                     className="object-center object-cover"
                   />
                 </div>
